@@ -1,0 +1,10 @@
+#subtitle {
+  margin-bottom: 60px;
+}
+
+header {
+  width: 100%;
+  height: 600px;
+  background: url(https://www.pexels.com/photo/black-and-gray-photo-of-person-in-front-of-computer-monitor-140945/);
+  background-position: center;
+}
