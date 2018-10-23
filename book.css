@@ -2,9 +2,18 @@
   margin-bottom: 60px;
 }
 
-header {
+header{
   width: 100%;
-  height: 600px;
-  background: url(https://www.pexels.com/photo/black-and-gray-photo-of-person-in-front-of-computer-monitor-140945/);
+  height: 300px;
+  background: url(https://images.pexels.com/photos/140945/pexels-photo-140945.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
   background-position: center;
+  background-repeat: no-repeat;
+}
+  header h1, header p{
+  text-align: center;
+  color: white;
+}
+
+.logo-wcs {
+  display: block;
 }
