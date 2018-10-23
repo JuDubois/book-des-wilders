@@ -8,3 +8,10 @@ header {
   background: url(https://www.pexels.com/photo/black-and-gray-photo-of-person-in-front-of-computer-monitor-140945/);
   background-position: center;
 }
+
+.rounded-circle:active {
+	opacity: 0;
+	border-color: orange;
+	border-width: 2px;
+}
+
