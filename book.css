@@ -13,8 +13,7 @@ header{
 
 .rounded-circle:active {
 	opacity: 0;
-	border-color: orange;
-	border-width: 2px;
+
 }
 
   header h1, header p{
@@ -31,4 +30,9 @@ nav ul{
   margin-left: 1%;
   margin-right: 10px;
 }
+
+.photos {
+	text-align: center;
+}
+
 
