@@ -8,13 +8,25 @@ header{
   background-position: center;
   background-repeat: no-repeat;*/
   background-color: grey;
+
 }
+
+.rounded-circle:active {
+	opacity: 0;
+	border-color: orange;
+	border-width: 2px;
+}
+
+
+  background-repeat: no-repeat;
+
   header h1, header p{
   text-align: center;
   color: white;
 }
 
 .logo-wcs {
+
   margin-left: 5px;
 }
 
@@ -22,3 +34,4 @@ nav ul{
   margin-left: 1%;
   margin-right: 10px;
 }
+
