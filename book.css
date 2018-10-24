@@ -1,12 +1,13 @@
-#subtitle {
-  margin-bottom: 60px;
-}
-
 header{
-  width: 100%;
+  width: auto;
   height: 300px;
-  background: url(https://images.pexels.com/photos/140945/pexels-photo-140945.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /*background: url(https://images.pexels.com/photos/140945/pexels-photo-140945.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
   background-position: center;
+  background-repeat: no-repeat;*/
+  background-color: grey;
 
 }
 
@@ -15,16 +16,19 @@ header{
 
 }
 
-
-  background-repeat: no-repeat;
-
   header h1, header p{
   text-align: center;
   color: white;
 }
 
 .logo-wcs {
-  display: block;
+
+  margin-left: 5px;
+}
+
+nav ul{
+  margin-left: 1%;
+  margin-right: 10px;
 }
 
 .photos {
