@@ -11,6 +11,18 @@ header{
 
 }
 
+#subtitle {
+  font-style: italic;
+}
+
+#wild{
+  padding-top: 3%;
+}
+
+body {
+  background-color: #f2f2f2
+}
+
 .rounded-circle:hover {
 	background-color: orange;
 
