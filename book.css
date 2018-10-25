@@ -147,4 +147,8 @@ text-decoration: none; }
   background-position: center;
   background-color: none; 
   }
+  .popup{
+    width: 90%;
+  }
+
 }
