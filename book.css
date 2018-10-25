@@ -21,6 +21,7 @@ header{
 
 #wild{
   padding-top: 3%;
+  text-align: justify;
 }
 
 p{
@@ -76,6 +77,7 @@ nav ul{
   width: 30%;
   position: relative;
   transition: all 5s ease-in-out;
+  text align: justify;
 }
 
 .popup h2 {
@@ -133,5 +135,6 @@ nav ul{
 .photo1, .photo2,.photo3, .photo4, .photo5, .photo6, .photo7, .photo8, .photo9, .photo10, .photo11, .photo12 {margin-bottom: 2em;}
 
 footer{background-color: grey;
-height: 50px }
+height: 50px;
+text-decoration: none;}
  
