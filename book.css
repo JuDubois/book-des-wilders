@@ -140,7 +140,7 @@ text-decoration: none; }
  
 @media (max-width: 640px){
   #promo{
-  background-image:url(TimelineMobile.jpg);
+  background-image:url(https://raw.githubusercontent.com/JuDubois/book-des-wilders/master/TimelineMobile.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover;
