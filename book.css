@@ -103,7 +103,13 @@ nav ul{
   overflow: auto;
 }
 
-
+.bold{
+  font-weight: bold;
+}
+.italic{
+  font-style: italic;
+  font-size:16px;
+}
 
 .button {
   color: black;
