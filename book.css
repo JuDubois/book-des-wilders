@@ -43,6 +43,16 @@ h2{
 }
 
 
+a:link {
+  text-decoration: none;
+
+}
+
+#wild a{
+  color:#f3a61f;
+  font-weight: bold;
+}
+
   header h1, header p{
   text-align: center;
   color: white;
@@ -86,6 +96,14 @@ nav ul{
   overflow: auto;
 }
 
+.bold{
+  font-weight: bold;
+}
+.italic{
+  font-style: italic;
+  font-size:16px;
+}
+
 .overlay {
   position: fixed;
   top: 0;
@@ -122,8 +140,6 @@ height: 100px;}
   }
 
 }
-
-a:link {text-decoration: none;}
 
 #footer{display: flex;
 flex-direction: row;
