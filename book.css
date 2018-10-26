@@ -42,10 +42,6 @@ h2{
   font-size: 17px;
 }
 
-.rounded-circle:hover {
-	background-color: orange;
-
-}
 
   header h1, header p{
   text-align: center;
@@ -66,7 +62,6 @@ nav ul{
   text-align: center;
 }
 
-
 /* Popup */
 
 .popup {
@@ -85,36 +80,11 @@ nav ul{
   color: #333;
   font-family: Tahoma, Arial, sans-serif;
 }
-.popup .close {
-  position: absolute;
-  top: 20px;
-  right: 30px;
-  transition: all 200ms;
-  font-size: 30px;
-  font-weight: bold;
-  text-decoration: none;
-  color: #333;
-}
-.popup .close:hover {
-  color: #06D85F;
-}
+
 .popup .content {
   max-height: 30%;
   overflow: auto;
 }
-
-
-
-.button {
-  color: black;
-  padding: 10px;
-  background-image: "https://picsum.photos/100/100F";
-  border-radius: 90%;
-  text-decoration: none;
-  cursor: pointer;
-  transition: all 0.3s ease-out;
-}
-
 
 .overlay {
   position: fixed;
@@ -129,14 +99,14 @@ nav ul{
 }
 .overlay:target {
   visibility: visible;
-  opacity: 1;
+  opacity: 1; 
 }
 
 .photo1, .photo2,.photo3, .photo4, .photo5, .photo6, .photo7, .photo8, .photo9, .photo10, .photo11, .photo12 {margin-bottom: 2em;}
 
+
 footer{background-color: grey;
-height: 50px;
-text-decoration: none; }
+height: 100px;}
  
 @media (max-width: 640px){
   #promo{
@@ -152,3 +122,15 @@ text-decoration: none; }
   }
 
 }
+
+a:link {text-decoration: none;}
+
+#footer{display: flex;
+flex-direction: row;
+justify-content: space-around;}
+
+footer a{color: black;
+text-decoration: none;
+padding-top: 3%}
+
+footer a:hover{color: white;}
