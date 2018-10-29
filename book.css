@@ -70,6 +70,11 @@ a:link {
   font-weight: bold;
 }
 
+#contact a{
+  color:#f3a61f;
+  font-weight: bold;
+}
+
   header h1, header p{
   text-align: center;
   color: white;
@@ -140,7 +145,7 @@ nav ul{
 .photo1, .photo2,.photo3, .photo4, .photo5, .photo6, .photo7, .photo8, .photo9, .photo10, .photo11, .photo12 {margin-bottom: 2em;}
 
 
-footer{background-color: grey;
+footer{background-color: #85cbcb;
 height: 100px;}
  
 @media (min-width: 650px) and (max-width: 1020px){
