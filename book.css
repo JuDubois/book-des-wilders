@@ -8,9 +8,10 @@ header{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: url(https://66.media.tumblr.com/2dce6aa85b6e3aac0c5d69544c0c1389/tumblr_phbk3gPwBc1s495ddo1_r1_500h.jpg);
+  /*background: url(https://images.pexels.com/photos/140945/pexels-photo-140945.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
   background-position: center;
   background-repeat: no-repeat;*/
+  background-color: grey;
 
 }
 
@@ -92,7 +93,7 @@ nav ul{
 
 .popup .content {
   max-height: 30%;
-  overflow: auto;
+  overflow: auto; 
 }
 
 .bold{
@@ -125,7 +126,7 @@ nav ul{
 footer{background-color: grey;
 height: 100px;}
  
-@media (max-width: 575px){
+@media (max-width: 770px){
   #promo{
   background-image:url(https://raw.githubusercontent.com/JuDubois/book-des-wilders/master/TimelineMobile.jpg);
   background-repeat: no-repeat;
@@ -156,4 +157,16 @@ footer a:hover{color: white;}
 
 .rounded-circle:hover {
   border: 5px orange solid;
+}
+
+.photo1{
+  padding-bottom: 50px;
+}
+
+.photo5{
+  padding-bottom: 50px;
+}
+
+.photo9{
+  padding-bottom: 50px;
 }
