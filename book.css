@@ -10,7 +10,7 @@ header{
   justify-content: center;
   background: url(https://66.media.tumblr.com/2dce6aa85b6e3aac0c5d69544c0c1389/tumblr_phbk3gPwBc1s495ddo1_r1_500h.jpg);
   background-position: center;
-  background-repeat: no-repeat;*/
+  background-repeat: no-repeat;
 
 }
 
@@ -99,7 +99,7 @@ nav ul{
   width: 30%;
   position: relative;
   transition: all 5s ease-in-out;
-  text align: justify;
+  text-align: justify;
 }
 
 .popup h2 {
@@ -159,16 +159,4 @@ height: 100px;}
   }
   .popup{
     width: 90%;
-  }
-
-  .photo1{
-    padding-bottom: 50px;
-  }
-  
-  .photo5{
-    padding-bottom: 50px;
-  }
-  
-  .photo9{
-    padding-bottom: 50px;
   }
