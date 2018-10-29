@@ -143,6 +143,11 @@ nav ul{
 footer{background-color: grey;
 height: 100px;}
  
+@media (min-width: 650px) and (max-width: 1020px){
+  .popup{
+    width: 70%;
+  }
+}
 @media (max-width: 650px){
   #promo{
   background-image:url(https://raw.githubusercontent.com/JuDubois/book-des-wilders/master/TimelineMobile.jpg);
