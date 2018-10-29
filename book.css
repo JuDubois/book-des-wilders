@@ -14,6 +14,21 @@ header{
 
 }
 
+#footer{display: flex;
+  flex-direction: row;
+  justify-content: space-around;}
+  
+  footer a{color: black;
+  text-decoration: none;
+  padding-top: 3%}
+  
+  footer a:hover{color: white;}
+  
+  .rounded-circle:hover {
+    border: 5px orange solid;
+  }
+  
+
 #subtitle {
   font-style: italic;
 }
@@ -39,6 +54,8 @@ h2{
 	border-bottom: 1px solid rgba(0, 0, 0,0.1);
   padding-bottom: 5px;
   font-size: 17px;
+  background-color: #f2f2f2;
+  background-size: cover;
 }
 
 
@@ -92,7 +109,7 @@ nav ul{
 
 .popup .content {
   max-height: 30%;
-  overflow: auto;
+  overflow: auto; 
 }
 
 .bold{
@@ -125,7 +142,7 @@ nav ul{
 footer{background-color: grey;
 height: 100px;}
  
-@media (max-width: 575px){
+@media (max-width: 770px){
   #promo{
   background-image:url(https://raw.githubusercontent.com/JuDubois/book-des-wilders/master/TimelineMobile.jpg);
   background-repeat: no-repeat;
@@ -138,22 +155,17 @@ height: 100px;}
     width: 90%;
   }
 
-  h2{
-    background-color: #f2f2f2;
-    background-size: cover;
+  .photo1{
+    padding-bottom: 50px;
   }
-}
+  
+  .photo5{
+    padding-bottom: 50px;
+  }
+  
+  .photo9{
+    padding-bottom: 50px;
+  }
 
-#footer{display: flex;
-flex-direction: row;
-justify-content: space-around;}
 
-footer a{color: black;
-text-decoration: none;
-padding-top: 3%}
 
-footer a:hover{color: white;}
-
-.rounded-circle:hover {
-  border: 5px orange solid;
-}
