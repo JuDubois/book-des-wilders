@@ -24,6 +24,7 @@ header{
   
   footer a:hover{color: white;}
   
+  .rounded-circle {border: 5px solid  #f2f2f2;}
   .rounded-circle:hover {
     border: 5px orange solid;
   }
