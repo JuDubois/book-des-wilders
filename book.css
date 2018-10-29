@@ -154,3 +154,7 @@ text-decoration: none;
 padding-top: 3%}
 
 footer a:hover{color: white;}
+
+.rounded-circle:hover {
+  border: 5px orange solid;
+}
