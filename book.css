@@ -125,7 +125,14 @@ nav ul{
 footer{background-color: grey;
 height: 100px;}
  
-@media (max-width: 575px){
+@media (min-width: 650px) and (max-width: 1000px){
+  .popup{
+    width: 70%;
+  }
+}
+
+
+@media (max-width: 600px){
   #promo{
   background-image:url(https://raw.githubusercontent.com/JuDubois/book-des-wilders/master/TimelineMobile.jpg);
   background-repeat: no-repeat;
@@ -156,4 +163,8 @@ footer a:hover{color: white;}
 
 .rounded-circle:hover {
   border: 5px orange solid;
+}
+
+.rounded-circle {
+  border: 5px #f2f2f2 solid;
 }
