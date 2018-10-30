@@ -147,6 +147,11 @@ a:link {
   }
 }
 
+@media(max-width:650px) {
+  .popup{
+    width: 90%;
+  }
+}
 .popup p {
   text-align: justify;
 }
