@@ -184,13 +184,15 @@ a:link {
 footer {
   height: 170px;
   background-color: #85cbcb;
+}
+
+#footer{
   padding: 2%;
   text-align: center;
 }
 
 
 footer a {
-
   text-decoration: none;
   color: black;
 }
