@@ -131,58 +131,6 @@ a:link {
   font-style: italic;
 }
 
-.popup {
-  position: relative;
-  width: 35%;
-  margin: 70px auto;
-  padding: 20px;
-  border-radius: 5px;
-  background: #fff;
-  transition-duration: 0s;
-}
-
-@media(min-width:650px) and (max-width:1020px) {
-  .popup {
-      width: 70%;
-  }
-}
-
-@media(max-width:650px) {
-  .popup{
-    width: 90%;
-  }
-}
-.popup p {
-  text-align: justify;
-}
-
-.popup h2 {
-  margin-top: 0;
-  font-family: Tahoma,Arial,sans-serif;
-  color: #333;
-}
-
-.popup .content {
-  max-height: 30%;
-  overflow: auto;
-}
-
-.overlay {
-  visibility: hidden;
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  opacity: 0;
-  background: rgba(0, 0, 0, 0.7);
-  transition: opacity 500ms;
-}
-
-.overlay:target {
-  visibility: visible;
-  opacity: 1;
-}
 
 /* Footer */
 
