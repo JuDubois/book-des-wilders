@@ -3,15 +3,15 @@ html {
 }
 
 header{
-  width: auto;
-  height: 300px;
+  height: 32vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   background: url(https://66.media.tumblr.com/2dce6aa85b6e3aac0c5d69544c0c1389/tumblr_phbk3gPwBc1s495ddo1_r1_500h.jpg);
+  -webkit-background-size: cover; 
+  background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;*/
-
+  background-repeat: no-repeat;
 }
 
 #footer{display: flex;
@@ -66,6 +66,11 @@ a:link {
 }
 
 #wild a{
+  color:#f3a61f;
+  font-weight: bold;
+}
+
+#contact a{
   color:#f3a61f;
   font-weight: bold;
 }
@@ -142,10 +147,15 @@ nav ul{
 .photo1, .photo2,.photo3, .photo4, .photo5, .photo6, .photo7, .photo8, .photo9, .photo10, .photo11, .photo12 {margin-bottom: 2em;}
 
 
-footer{background-color: grey;
+footer{background-color: #85cbcb;
 height: 100px;}
  
-@media (max-width: 770px){
+@media (min-width: 650px) and (max-width: 1020px){
+  .popup{
+    width: 70%;
+  }
+}
+@media (max-width: 650px){
   #promo{
   background-image:url(https://raw.githubusercontent.com/JuDubois/book-des-wilders/master/TimelineMobile.jpg);
   background-repeat: no-repeat;
@@ -156,16 +166,4 @@ height: 100px;}
   }
   .popup{
     width: 90%;
-  }
-
-  .photo1{
-    padding-bottom: 50px;
-  }
-  
-  .photo5{
-    padding-bottom: 50px;
-  }
-  
-  .photo9{
-    padding-bottom: 50px;
   }

@@ -8,12 +8,27 @@ header{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /*background: url(https://images.pexels.com/photos/140945/pexels-photo-140945.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+  background: url(https://66.media.tumblr.com/2dce6aa85b6e3aac0c5d69544c0c1389/tumblr_phbk3gPwBc1s495ddo1_r1_500h.jpg);
   background-position: center;
-  background-repeat: no-repeat;*/
-  background-color: grey;
+  background-repeat: no-repeat;
 
 }
+
+#footer{display: flex;
+  flex-direction: row;
+  justify-content: space-around;}
+  
+  footer a{color: black;
+  text-decoration: none;
+  padding-top: 3%}
+  
+  footer a:hover{color: white;}
+  
+  .rounded-circle {border: 5px solid  #f2f2f2;}
+  .rounded-circle:hover {
+    border: 5px orange solid;
+  }
+  
 
 #subtitle {
   font-style: italic;
@@ -40,11 +55,19 @@ h2{
 	border-bottom: 1px solid rgba(0, 0, 0,0.1);
   padding-bottom: 5px;
   font-size: 17px;
+  background-color: #f2f2f2;
+  background-size: cover;
 }
 
-.rounded-circle:hover {
-	background-color: orange;
 
+a:link {
+  text-decoration: none;
+
+}
+
+#wild a{
+  color:#f3a61f;
+  font-weight: bold;
 }
 
   header h1, header p{
@@ -66,7 +89,6 @@ nav ul{
   text-align: center;
 }
 
-
 /* Popup */
 
 .popup {
@@ -77,7 +99,7 @@ nav ul{
   width: 30%;
   position: relative;
   transition: all 5s ease-in-out;
-  text align: justify;
+  text-align: justify;
 }
 
 .popup h2 {
@@ -85,22 +107,10 @@ nav ul{
   color: #333;
   font-family: Tahoma, Arial, sans-serif;
 }
-.popup .close {
-  position: absolute;
-  top: 20px;
-  right: 30px;
-  transition: all 200ms;
-  font-size: 30px;
-  font-weight: bold;
-  text-decoration: none;
-  color: #333;
-}
-.popup .close:hover {
-  color: #06D85F;
-}
+
 .popup .content {
   max-height: 30%;
-  overflow: auto;
+  overflow: auto; 
 }
 
 .bold{
@@ -111,25 +121,7 @@ nav ul{
   font-size:16px;
 }
 
-.button {
-  color: black;
-  padding: 10px;
-  background-image: "https://picsum.photos/100/100F";
-  border-radius: 90%;
-  text-decoration: none;
-  cursor: pointer;
-  transition: all 0.3s ease-out;
-}
-.photo1
-{
-  position: absolute;
-bottom: -250px; left: 250px;
-}
-.photo2
-{
-  position: absolute;
-  bottom: -8%; left: 32%;
-}
+.overlay {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -142,26 +134,29 @@ bottom: -250px; left: 250px;
 }
 .overlay:target {
   visibility: visible;
-  opacity: 1;
+  opacity: 1; 
 }
 
 .photo1, .photo2,.photo3, .photo4, .photo5, .photo6, .photo7, .photo8, .photo9, .photo10, .photo11, .photo12 {margin-bottom: 2em;}
 
+
 footer{background-color: grey;
-height: 50px;
-text-decoration: none; }
+height: 100px;}
  
-@media (max-width: 640px){
+@media (min-width: 650px) and (max-width: 1020px){
+  .popup{
+    width: 70%;
+  }
+}
+@media (max-width: 650px){
   #promo{
   background-image:url(https://raw.githubusercontent.com/JuDubois/book-des-wilders/master/TimelineMobile.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover;
   background-position: center;
-  background-color: none; 
+  background-color: #f5f5f5; 
   }
   .popup{
     width: 90%;
   }
-
-}
