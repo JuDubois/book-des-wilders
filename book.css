@@ -3,7 +3,6 @@ html {
 }
 
 header{
-  
   height: 32vh;
   display: flex;
   flex-direction: column;
@@ -160,10 +159,11 @@ height: 100px;}
   #promo{
   background-image:url(https://raw.githubusercontent.com/JuDubois/book-des-wilders/master/TimelineMobile.jpg);
   background-repeat: no-repeat;
-  background-attachment: fixed;  
+  background-attachment: fixed !important; 
   background-size: cover;
   background-position: center;
   background-color: #f5f5f5; 
+  
   }
   .popup{
     width: 90%;
