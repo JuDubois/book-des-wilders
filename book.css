@@ -10,7 +10,7 @@ header{
   justify-content: center;
   background: url(https://66.media.tumblr.com/2dce6aa85b6e3aac0c5d69544c0c1389/tumblr_phbk3gPwBc1s495ddo1_r1_500h.jpg);
   background-position: center;
-  background-repeat: no-repeat;*/
+  background-repeat: no-repeat;
 
 }
 
@@ -70,6 +70,11 @@ a:link {
   font-weight: bold;
 }
 
+#contact a{
+  color:#f3a61f;
+  font-weight: bold;
+}
+
   header h1, header p{
   text-align: center;
   color: white;
@@ -99,7 +104,9 @@ nav ul{
   width: 30%;
   position: relative;
   transition: all 5s ease-in-out;
-  text align: justify;
+}
+.popup p{
+  text-align: justify;
 }
 
 .popup h2 {
@@ -140,7 +147,7 @@ nav ul{
 .photo1, .photo2,.photo3, .photo4, .photo5, .photo6, .photo7, .photo8, .photo9, .photo10, .photo11, .photo12 {margin-bottom: 2em;}
 
 
-footer{background-color: grey;
+footer{background-color: #85cbcb;
 height: 100px;}
  
 @media (min-width: 650px) and (max-width: 1020px){
@@ -160,4 +167,4 @@ height: 100px;}
   .popup{
     width: 90%;
   }
-
+}
