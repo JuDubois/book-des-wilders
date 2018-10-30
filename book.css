@@ -137,7 +137,7 @@ a:link {
   padding: 20px;
   border-radius: 5px;
   background: #fff;
-  transition: all 5s ease-in-out;
+  transition-duration: 0s;
 }
 
 @media(min-width:650px) and (max-width:1020px) {
