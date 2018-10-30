@@ -99,6 +99,8 @@ nav ul{
   width: 30%;
   position: relative;
   transition: all 5s ease-in-out;
+}
+.popup p{
   text align: justify;
 }
 
