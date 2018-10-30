@@ -116,8 +116,7 @@ a:link {
 }
 
 .rounded-circle:hover {
-solid;
-  border: 5px #f3a61f;
+  border: 5px solid #f3a61f;
 }
 
 /* Popup */
