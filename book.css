@@ -104,7 +104,9 @@ nav ul{
   width: 30%;
   position: relative;
   transition: all 5s ease-in-out;
-  text-align: justify;
+}
+.popup p{
+  text align: justify;
 }
 
 .popup h2 {
