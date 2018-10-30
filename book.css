@@ -30,6 +30,7 @@ header p {
 
 .logo-wcs {
   margin-left: 5px;
+  margin-right: 5px;
 }
 
 nav ul {
@@ -45,7 +46,7 @@ h2 {
   font-family: sans-serif;
   font-size: 17px;
   font-weight: bold;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   color: #3d3d3d;
   background-color: #f2f2f2;
   background-size: cover;
@@ -181,22 +182,23 @@ a:link {
 /* Footer */
 
 footer {
-  height: 100px;
+  height: 170px;
   background-color: #85cbcb;
+  padding: 2%;
+  text-align: center;
 }
 
-#footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
 
 footer a {
-  padding-top: 3%;
+
   text-decoration: none;
   color: black;
 }
 
 footer a:hover {
   color: white;
+}
+
+#bold_footer{
+  font-weight: bold;
 }
