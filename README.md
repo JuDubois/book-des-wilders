@@ -1,6 +1,6 @@
 # book-des-wilders
 
-Ce projet a pour but de présenter la promotion Java 2018 de Reims à des professionnels.
+Ce projet a pour but de présenter la promotion Java 2018 "Chronos" de Reims à des professionnels.
 
 Le site présente chaque profil avec ses spécificités pour qu'un professionnel puisse être intéressé et proposer un emploi.
 
